@@ -4,6 +4,7 @@
 #include <system/application.h>
 #include <maths/vector2.h>
 #include <input/touch_input_manager.h>
+#include <graphics/sprite.h>
 
 // FRAMEWORK FORWARD DECLARATIONS
 namespace gef
@@ -38,6 +39,8 @@ private:
 	gef::Vector2 touch_position_;
 
 	float fps_;
+
+	gef::Sprite my_sprite_;
 };
 
 #endif // _INPUT_APP_H

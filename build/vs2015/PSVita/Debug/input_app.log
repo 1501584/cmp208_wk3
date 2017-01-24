@@ -1,0 +1,15 @@
+﻿  input_app.cpp
+  input_app.vcxproj -> M:\gef_touch_app\build\vs2015\PSVita\Debug\input_app.self
+  ..\..\..\media\shaders\gef\vita\default_3d_shader_ps.gxp
+  ..\..\..\media\shaders\gef\vita\default_3d_shader_ps_5028777768a77331.sdb
+  ..\..\..\media\shaders\gef\vita\default_3d_shader_vs.gxp
+  ..\..\..\media\shaders\gef\vita\default_3d_shader_vs_5d7003e50798492d.sdb
+  ..\..\..\media\shaders\gef\vita\default_3d_skinning_shader_ps.gxp
+  ..\..\..\media\shaders\gef\vita\default_3d_skinning_shader_ps_502877773db7491f.sdb
+  ..\..\..\media\shaders\gef\vita\default_3d_skinning_shader_vs.gxp
+  ..\..\..\media\shaders\gef\vita\default_3d_skinning_shader_vs_639818b38f5dbe37.sdb
+  ..\..\..\media\shaders\gef\vita\default_sprite_shader_ps.gxp
+  ..\..\..\media\shaders\gef\vita\default_sprite_shader_ps_b1d72a37470b03cb.sdb
+  ..\..\..\media\shaders\gef\vita\default_sprite_shader_vs.gxp
+  ..\..\..\media\shaders\gef\vita\default_sprite_shader_vs_7d2b66ec22e66dd4.sdb
+  12 File(s) copied

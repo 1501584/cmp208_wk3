@@ -25,6 +25,10 @@ void InputApp::Init()
 	if (input_manager_ && input_manager_->touch_manager() && (input_manager_->touch_manager()->max_num_panels() > 0))
 		input_manager_->touch_manager()->EnablePanel(0);
 
+	my_sprite_.set_height(32.0f);
+	my_sprite_.set_width(32.0f);
+	my_sprite_.set_position(platform_.width()*0.5f, platform_.height()*0.5f, 0.0f);
+
 	InitFont();
 }
 
@@ -56,6 +60,8 @@ bool InputApp::Update(float frame_time)
 void InputApp::Render()
 {
 	sprite_renderer_->Begin();
+	sprite_renderer_->DrawSprite(my_sprite_);
+
 	DrawHUD();
 	sprite_renderer_->End();
 }

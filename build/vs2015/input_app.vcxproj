@@ -189,7 +189,7 @@
       <AdditionalDependencies>gef.a;libpng.a;zlib.a;gef_vita.a;-lSceFios2_stub;-lSceGxm_stub;-lSceDisplay_stub;-lSceCtrl_stub;-lSceSysmodule_stub;-lSceNgs_stub_weak;-lSceAudio_stub;-lSceTouch_stub;-lSceRazorCapture_stub;-lSceDbg_stub</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /s ..\..\..\media\*.* ..\..\media\.</Command>
+      <Command>xcopy /s /y ..\..\..\media\*.* ..\..\media\.</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copy Vita Shader Files</Message>
